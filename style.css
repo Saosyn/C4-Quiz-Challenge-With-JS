@@ -1,0 +1,41 @@
+:root {
+    
+}
+.quiz-box {
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: purple;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 3%;
+}
+#header {
+    margin-top: 5%;
+}
+#intro {
+    
+}
+#start-button {
+    color: black;
+    background-color: orange;
+    border-radius: 5px;
+}
+.container {
+    text-align: right;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 15px;
+}
+#high-scores {
+    text-align: left;
+    margin-top: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 15px;
+}
