@@ -3,70 +3,56 @@ let questions = [
     {
     numb: 1,
     question: "Inside which HTML element do we put the JavaScript?",
-    answer: "Hyper Text Markup Language",
+    answer: "<script>",
     options: [
       "<Javascipt>",
       "<style>",
       "<js>",
-      "script"
+      "<script>"
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "Question?",
+    answer: "correct",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+     "Option 1",
+     "Option 2",
+     "Option 3",
+     "Option 4"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Q3",
+    answer: "Answer",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+     "Option 1",
+     "Option 2",
+     "Option 3",
+     "Option 4"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "Q4",
+    answer: "Answer",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+     "Option 1",
+     "Option 2",
+     "Option 3",
+     "Option 4"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "Q5?",
+    answer: "Answer",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+     "Option 1",
+     "Option 2",
+     "Option 3",
+     "Option 4"
     ]
   },
-  // you can uncomment the below codes and make duplicate as more as you want to add question
-  // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
-
-  //   {
-  //   numb: 6,
-  //   question: "Your Question is Here",
-  //   answer: "Correct answer of the question is here",
-  //   options: [
-  //     "Option 1",
-  //     "option 2",
-  //     "option 3",
-  //     "option 4"
-  //   ]
-  // },
 ];
