@@ -1,6 +1,7 @@
-:root {
-    
-}
+
+body { 
+    font-family: 'Orbitron', sans-serif;
+} 
 .quiz-box {
     height: 400px;
     width: 100%;
@@ -13,6 +14,19 @@
     margin-top: 3%;
  
 }
+
+.button-grid {
+    display: grid;
+    width: 800px;
+    max-width: 80%;
+    visibility: hidden;
+
+}
+
+#question {
+    visibility: hidden;
+}
+
 #header {
     margin-top: 5%;
 }
@@ -31,6 +45,7 @@
     top: 0;
     right: 0;
     padding-right: 15px;
+    /* visibility: hidden; */
 }
 #high-scores {
     text-align: left;
