@@ -11,8 +11,6 @@ const quizTimer = document.getElementById('container')
 
 
 let suffledQuestions, currentQuestionIndex
-// listening for the click on start button for the game
-startButton.addEventListener('click', startGame)
 // listening for the click on next question
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++
@@ -21,10 +19,12 @@ nextButton.addEventListener('click', () => {
 // Start game function to execute the quiz
 function startGame() {
     console.log('started')
-    startButton.classList.add('hidden')
-    quizHeader.classList.add('hidden')
-    quizText.classList.add('hidden')
-    // buttonGrid.classList.toggle('hidden')
+    document.getElementById("start-button");
+    startTimer();
+    startButton.classList.add('hide')
+    quizHeader.classList.add('hide')
+    quizText.classList.add('hide')
+    // buttonGrid.list.toggle('hidden')
     shuffledQuestions = questions.sort(() => Math.random() - .5)
     currentQuestionIndex = 0
     // questionContainerElement.classList.toggle('hidden')
@@ -110,10 +110,4 @@ const countDown = setInterval (()=>{
         alert("Time is up! Better luck next time.")
     }
     },1000);
-}
-function startGameTimer()
-{
-    
-    document.getElementById("start-button");
-    startTimer();
 }
